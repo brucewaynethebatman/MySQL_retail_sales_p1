@@ -540,14 +540,13 @@ not claims about the dataset's actual results.
 9. How to Run the Project
 1. Install MySQL Server and optionally MySQL Workbench.
 2. Clone or download this repository.
-3. Obtain the retail sales dataset used by the project.
+3. Import the retail sales dataset into the retail_sales_raw table before executing the data-cleaning and analysis queries.
 4. Open the SQL script in MySQL Workbench.
 5. Execute the database and table-creation statements.
-6. Import the source data into retail_sales_raw.
-7. Run the validation and cleaning steps in order, checking the
+6. Run the validation and cleaning steps in order, checking the
    results.
-8. Run the exploratory queries.
-9. Run the business-analysis queries and review the outputs.
+7. Run the exploratory queries.
+8. Run the business-analysis queries and review the outputs.
 The supplied SQL script does not include the source dataset or import
 instructions. The raw table must be populated before the later queries
 can produce meaningful results. Execute the script in stages and resolve
